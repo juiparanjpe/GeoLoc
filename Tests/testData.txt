@@ -1,0 +1,5 @@
+94566|{'name': 'Pleasanton','lat':'37.6658','lon':'-121.8755'}
+Fremont,ca|{'name': 'Fremont','lat':'37.5482697','lon':'-121.988571'}
+Brookfield,WI|{'name': 'Brookfield','lat':'43.0578479','lon':'-88.1261984'}
+Phoenix,AZ|{'name': 'Phoenix','lat':'33.4484367','lon':'-112.074141'}
+San Francisco,CA|{'name': 'San Francisco','lat':'37.7790262','lon':'-122.419906'}
