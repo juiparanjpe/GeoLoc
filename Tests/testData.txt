@@ -1,0 +1,5 @@
+94566|Pleasanton|37.6658|-121.8755
+Fremont,ca|"Fremont"|37.5482697|-121.988571
+Brookfield,WI|"Brookfield"|43.0578479|-88.1261984
+Phoenix,AZ|"Phoenix"|33.4484367|-112.074141
+San Francisco,CA|"San Francisco"|37.7790262|-122.419906
