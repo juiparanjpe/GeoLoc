@@ -13,7 +13,7 @@ def main(locations: List[str]):
                 data = get_zip(location)
             else:
                 data = get_city_state(location)
-            output = "{'name': '" + data['name'] + "','lat':'" + str(data['lat']) + "','lon':'" + str(data['lon']) + "'}"
+            output = jsonify_output(data)
             print(output)
     except urllib.error.HTTPError as e:
         print(f"Error occurred in processing request:{e}")
@@ -38,6 +38,15 @@ def make_http_request(url):
     connection = urllib.request.urlopen(url)
     contents = connection.read()
     return contents
+
+def jsonify_output(data):
+    python_object = {
+        "name": data['name'],
+        "lat": data['lat'],
+        "lon": data['lon']
+    }
+    json_formatted = json.dumps(python_object, indent=4)
+    return json_formatted
 
 
 if __name__=="__main__":
