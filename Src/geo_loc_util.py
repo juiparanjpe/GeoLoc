@@ -17,8 +17,10 @@ def main(locations: List[str]):
             print(output)
     except urllib.error.HTTPError as e:
         print(f"Error occurred in processing request:{e}")
+        exit(1)
     except IndexError:
         print(f"Place not found")
+        exit(1)
 
 
 def get_zip(zipCode):
